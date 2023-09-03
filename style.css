@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+.image img{
+    position: relative;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    transition: ease-in-out;
+}
+
+.image img:hover{
+    transition: 0.5s ease-out;
+    height: 420px;
+    width: 420px;
+}
+
+.table table{
+    height: 30px;
+    border: 5px solid black;
+    background-color: azure;
+}
+
+.form {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: dodgerblue;
+}
+
+.form form{
+   
+    margin: 9px;
+}
